@@ -924,6 +924,7 @@
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     :goto_0
+    const/4 v0, 0x0
     return-object v0
 
     :cond_1
