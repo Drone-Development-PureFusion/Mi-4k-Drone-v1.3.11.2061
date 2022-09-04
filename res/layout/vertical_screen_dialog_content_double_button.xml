@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:background="@drawable/dialog_background_inset" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.soul.utils.JustifyTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/msg_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.299988dip" android:layout_centerHorizontal="true" />
+    <ScrollView android:scrollbarThumbVertical="@drawable/dialog_textview_scrolbar_thumb" android:id="@id/scrollView" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/msg_tv" android:overScrollMode="never">
+        <com.fimi.soul.utils.JustifyTextView android:textSize="14.0sp" android:textColor="#b2000000" android:id="@id/content_tv" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:maxEms="18" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/scrollView">
+        <Button android:textSize="14.0sp" android:textColor="#b2000000" android:gravity="center" android:id="@id/left_btn" android:background="@drawable/btn_dialog_left_selector" android:layout_width="fill_parent" android:layout_height="52.599976dip" android:text="@string/cancel" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+        <Button android:textSize="14.0sp" android:textColor="#b2000000" android:gravity="center" android:id="@id/right_btn" android:background="@drawable/btn_dialog_right_selector" android:layout_width="fill_parent" android:layout_height="52.599976dip" android:text="@string/ensure" android:layout_weight="1.0" android:layout_toRightOf="@id/left_btn" />
+    </LinearLayout>
+</RelativeLayout>

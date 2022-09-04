@@ -1,0 +1,79 @@
+.class Lcom/google/android/gms/games/internal/a/p$8;
+.super Lcom/google/android/gms/games/internal/a/p$f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/gms/games/internal/a/p;->a(Lcom/google/android/gms/common/api/g;Ljava/lang/String;[BLjava/lang/String;[Lcom/google/android/gms/games/multiplayer/ParticipantResult;)Lcom/google/android/gms/common/api/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Ljava/lang/String;
+
+.field final synthetic b:[B
+
+.field final synthetic c:Ljava/lang/String;
+
+.field final synthetic d:[Lcom/google/android/gms/games/multiplayer/ParticipantResult;
+
+.field final synthetic e:Lcom/google/android/gms/games/internal/a/p;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/games/internal/a/p;Lcom/google/android/gms/common/api/g;Ljava/lang/String;[BLjava/lang/String;[Lcom/google/android/gms/games/multiplayer/ParticipantResult;)V
+    .locals 1
+
+    iput-object p1, p0, Lcom/google/android/gms/games/internal/a/p$8;->e:Lcom/google/android/gms/games/internal/a/p;
+
+    iput-object p3, p0, Lcom/google/android/gms/games/internal/a/p$8;->a:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/google/android/gms/games/internal/a/p$8;->b:[B
+
+    iput-object p5, p0, Lcom/google/android/gms/games/internal/a/p$8;->c:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/google/android/gms/games/internal/a/p$8;->d:[Lcom/google/android/gms/games/multiplayer/ParticipantResult;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p2, v0}, Lcom/google/android/gms/games/internal/a/p$f;-><init>(Lcom/google/android/gms/common/api/g;Lcom/google/android/gms/games/internal/a/p$1;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected bridge synthetic a(Lcom/google/android/gms/common/api/a$c;)V
+    .locals 0
+
+    check-cast p1, Lcom/google/android/gms/games/internal/d;
+
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/games/internal/a/p$8;->a(Lcom/google/android/gms/games/internal/d;)V
+
+    return-void
+.end method
+
+.method protected a(Lcom/google/android/gms/games/internal/d;)V
+    .locals 6
+
+    iget-object v2, p0, Lcom/google/android/gms/games/internal/a/p$8;->a:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/google/android/gms/games/internal/a/p$8;->b:[B
+
+    iget-object v4, p0, Lcom/google/android/gms/games/internal/a/p$8;->c:Ljava/lang/String;
+
+    iget-object v5, p0, Lcom/google/android/gms/games/internal/a/p$8;->d:[Lcom/google/android/gms/games/multiplayer/ParticipantResult;
+
+    move-object v0, p1
+
+    move-object v1, p0
+
+    invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/games/internal/d;->a(Lcom/google/android/gms/internal/ahl$b;Ljava/lang/String;[BLjava/lang/String;[Lcom/google/android/gms/games/multiplayer/ParticipantResult;)V
+
+    return-void
+.end method

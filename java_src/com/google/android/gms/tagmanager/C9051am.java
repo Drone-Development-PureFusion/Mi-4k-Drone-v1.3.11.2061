@@ -1,0 +1,39 @@
+package com.google.android.gms.tagmanager;
+
+import android.content.Context;
+import com.google.android.gms.internal.AbstractC7090hj;
+import com.google.android.gms.internal.EnumC6890eg;
+import com.google.android.gms.internal.EnumC6958fh;
+import java.util.Map;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* renamed from: com.google.android.gms.tagmanager.am */
+/* loaded from: classes2.dex */
+public class C9051am extends AbstractC9229t {
+
+    /* renamed from: a */
+    private static final String f28692a = EnumC6890eg.INSTALL_REFERRER.toString();
+
+    /* renamed from: b */
+    private static final String f28693b = EnumC6958fh.COMPONENT.toString();
+
+    /* renamed from: c */
+    private final Context f28694c;
+
+    public C9051am(Context context) {
+        super(f28692a, new String[0]);
+        this.f28694c = context;
+    }
+
+    @Override // com.google.android.gms.tagmanager.AbstractC9229t
+    /* renamed from: a */
+    public AbstractC7090hj.C7091a mo8870a(Map<String, AbstractC7090hj.C7091a> map) {
+        String m9311b = C9052an.m9311b(this.f28694c, map.get(f28693b) != null ? C9147cw.m9132a(map.get(f28693b)) : null);
+        return m9311b != null ? C9147cw.m9111f(m9311b) : C9147cw.m9110g();
+    }
+
+    @Override // com.google.android.gms.tagmanager.AbstractC9229t
+    /* renamed from: a */
+    public boolean mo8872a() {
+        return true;
+    }
+}

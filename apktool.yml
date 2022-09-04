@@ -1,0 +1,36 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Mi Drone_vV 1.3.11.20601.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/insurance.js
+- png
+- jpg
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  build-data.properties: '8'
+  mistats_version: '8'
+  miui_push_version: '8'
+  push_version: '8'
+  it/sauronsoftware/ftp4j/extrecognizers/textualexts: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  junit/runner/logo.gif: '8'
+  junit/runner/smalllogo.gif: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '11'
+  versionName: V 1.3.11.20601

@@ -1,0 +1,73 @@
+.class Lcom/google/android/gms/drive/internal/br$3;
+.super Lcom/google/android/gms/drive/internal/br$f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/gms/drive/internal/br;->a(Lcom/google/android/gms/common/api/g;Ljava/lang/String;)Lcom/google/android/gms/common/api/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Ljava/lang/String;
+
+.field final synthetic b:Lcom/google/android/gms/drive/internal/br;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/drive/internal/br;Lcom/google/android/gms/common/api/g;Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/drive/internal/br$3;->b:Lcom/google/android/gms/drive/internal/br;
+
+    iput-object p3, p0, Lcom/google/android/gms/drive/internal/br$3;->a:Ljava/lang/String;
+
+    invoke-direct {p0, p2}, Lcom/google/android/gms/drive/internal/br$f;-><init>(Lcom/google/android/gms/common/api/g;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected bridge synthetic a(Lcom/google/android/gms/common/api/a$c;)V
+    .locals 0
+
+    check-cast p1, Lcom/google/android/gms/drive/internal/bt;
+
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/drive/internal/br$3;->a(Lcom/google/android/gms/drive/internal/bt;)V
+
+    return-void
+.end method
+
+.method protected a(Lcom/google/android/gms/drive/internal/bt;)V
+    .locals 4
+
+    invoke-virtual {p1}, Lcom/google/android/gms/drive/internal/bt;->i()Lcom/google/android/gms/drive/internal/n;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/google/android/gms/drive/internal/GetMetadataRequest;
+
+    iget-object v2, p0, Lcom/google/android/gms/drive/internal/br$3;->a:Ljava/lang/String;
+
+    invoke-static {v2}, Lcom/google/android/gms/drive/DriveId;->a(Ljava/lang/String;)Lcom/google/android/gms/drive/DriveId;
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    invoke-direct {v1, v2, v3}, Lcom/google/android/gms/drive/internal/GetMetadataRequest;-><init>(Lcom/google/android/gms/drive/DriveId;Z)V
+
+    new-instance v2, Lcom/google/android/gms/drive/internal/br$d;
+
+    invoke-direct {v2, p0}, Lcom/google/android/gms/drive/internal/br$d;-><init>(Lcom/google/android/gms/internal/ahl$b;)V
+
+    invoke-interface {v0, v1, v2}, Lcom/google/android/gms/drive/internal/n;->a(Lcom/google/android/gms/drive/internal/GetMetadataRequest;Lcom/google/android/gms/drive/internal/o;)V
+
+    return-void
+.end method
