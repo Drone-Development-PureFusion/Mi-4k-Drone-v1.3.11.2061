@@ -803,7 +803,7 @@
 
     const-string v1, "flight_h_v_height"
 
-    const-string v2, "120"
+    const-string v2, "600"
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
