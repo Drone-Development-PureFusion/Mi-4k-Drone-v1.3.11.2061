@@ -355,7 +355,7 @@ Mi Drone should be connected to update fimware version"</string>
     <string name="comtakeoff">Auto Take Off complete</string>
     <string name="comtohome">Auto RTH complete</string>
     <string name="condrone">Aircraft connected</string>
-    <string name="confirm">确定</string>
+    <string name="confirm">Confirm</string>
     <string name="confirm_all_connection">Please connect RC and drone before update</string>
     <string name="confirm_all_connection2">Please follow the instructions when updating</string>
     <string name="confirm_all_connection3">Drone firmware damaged, please update</string>
