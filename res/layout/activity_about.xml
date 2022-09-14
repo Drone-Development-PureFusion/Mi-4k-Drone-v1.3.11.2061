@@ -61,7 +61,7 @@
     </LinearLayout>
     <Button android:textSize="12.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/scoreBtn" android:background="@drawable/assess_btn_selector" android:paddingTop="6.0dip" android:layout_width="115.32999dip" android:layout_height="30.0sp" android:layout_marginBottom="46.0dip" android:text="@string/about_mark" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
     <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
-        <TextView android:textSize="10.0sp" android:textColor="#33ffffff" android:id="@id/copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copyright © 2016-2017 Fimi, All Rights Reserved. | " />
+        <TextView android:textSize="10.0sp" android:textColor="#33ffffff" android:id="@id/copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copyright © 2016-2022 Fimi, All Rights Reserved. | " />
         <TextView android:textSize="10.0sp" android:textColor="#33ffffff" android:id="@id/agreementshengming_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_shengming" />
     </LinearLayout>
 </com.fimi.kernel.view.percent.PercentRelativeLayout>
