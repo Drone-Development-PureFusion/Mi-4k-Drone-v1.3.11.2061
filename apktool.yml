@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: Mi_4k_Drone_V1.3.11.20601-PFv10.apk
+apkFileName: Mi_4k_Drone_V1.3.11.20601-PFv11.apk
 compressionType: false
 doNotCompress:
 - resources.arsc
@@ -22,4 +22,4 @@ usesFramework:
 version: 2.6.1
 versionInfo:
   versionCode: '11'
-  versionName: V 1.3.11.20601-PFv10
+  versionName: V 1.3.11.20601-PFv11
