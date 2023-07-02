@@ -3,7 +3,6 @@ apkFileName: Mi_4k_Drone_V1.3.11.20601-PFv10.apk
 compressionType: false
 doNotCompress:
 - resources.arsc
-- assets/insurance.js
 - png
 - jpg
 - ogg

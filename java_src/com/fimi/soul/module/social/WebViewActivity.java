@@ -82,52 +82,6 @@ public class WebViewActivity extends Activity {
         }
     }
 
-    public void loadFiileJS() {
-        InputStream inputStream = null;
-        try {
-            try {
-                inputStream = getAssets().open("insurance.js");
-                byte[] bArr = new byte[1024];
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                while (true) {
-                    int read = inputStream.read(bArr);
-                    if (read <= 0) {
-                        break;
-                    }
-                    byteArrayOutputStream.write(bArr, 0, read);
-                }
-                this.wholeJS = byteArrayOutputStream.toString();
-                if (inputStream == null) {
-                    return;
-                }
-                try {
-                    inputStream.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            } catch (IOException e2) {
-                e2.printStackTrace();
-                if (inputStream == null) {
-                    return;
-                }
-                try {
-                    inputStream.close();
-                } catch (IOException e3) {
-                    e3.printStackTrace();
-                }
-            }
-        } catch (Throwable th) {
-            if (inputStream != null) {
-                try {
-                    inputStream.close();
-                } catch (IOException e4) {
-                    e4.printStackTrace();
-                }
-            }
-            throw th;
-        }
-    }
-
     @Override // android.app.Activity
     protected void onActivityResult(int i, int i2, Intent intent) {
         super.onActivityResult(i, i2, intent);
