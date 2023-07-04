@@ -613,39 +613,6 @@
 
     goto :goto_0
 
-    :sswitch_5
-    new-instance v0, Landroid/content/Intent;
-
-    invoke-virtual {p0}, Lcom/fimi/soul/module/login/LoginFragment;->getActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    const-class v2, Lcom/fimi/soul/module/setting/ShowTextActivity;
-
-    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    const-string v1, "URL_ONLINE"
-
-    const-string v2, "https://fimiservice-us.mi-ae.com/privacy.html"
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v1, "URL_TITLE"
-
-    const v2, 0x7f0b00ad
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
-
-    const-string v1, "URL_LOCAL"
-
-    const-string v2, "file:///android_asset/privacy.html"
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {p0, v0}, Lcom/fimi/soul/module/login/LoginFragment;->startActivity(Landroid/content/Intent;)V
-
-    goto/16 :goto_0
-
     :sswitch_6
     new-instance v0, Landroid/content/Intent;
 
@@ -686,7 +653,6 @@
         0x7f10034d -> :sswitch_1
         0x7f10034f -> :sswitch_2
         0x7f100350 -> :sswitch_3
-        0x7f100352 -> :sswitch_5
         0x7f100354 -> :sswitch_0
     .end sparse-switch
 .end method

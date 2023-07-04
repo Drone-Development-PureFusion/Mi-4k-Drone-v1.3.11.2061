@@ -3924,9 +3924,6 @@ SHA1-Digest: 6jjgptUOCExj6sAhZJqw0yY9lZo=
 Name: res/drawable-xxhdpi-v4/update116.png
 SHA1-Digest: 5q39GRuomXqVs8+73apVOqhE0gw=
 
-Name: assets/privacy.html
-SHA1-Digest: 3i6iEvkvGXtn14yFj1Z/d7O/6ik=
-
 Name: res/raw/video_record_end.ogg
 SHA1-Digest: iI4v5gyFYn9RDviTu1UMUG/2fC8=
 
