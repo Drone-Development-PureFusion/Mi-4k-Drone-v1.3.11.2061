@@ -1196,57 +1196,6 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public onClick(Landroid/view/View;)V
-    .locals 3
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :goto_0
-    return-void
-
-    :pswitch_0
-    new-instance v0, Landroid/content/Intent;
-
-    const-class v1, Lcom/fimi/soul/module/setting/ShowTextActivity;
-
-    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    const-string v1, "URL_ONLINE"
-
-    const-string v2, "https://fimiservice-us.mi-ae.com/statement.html"
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v1, "URL_TITLE"
-
-    const v2, 0x7f0b00ae
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
-
-    const-string v1, "URL_LOCAL"
-
-    const-string v2, "file:///android_asset/statement.html"
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {p0, v0}, Lcom/fimi/soul/module/setting/AboutActivity;->startActivity(Landroid/content/Intent;)V
-
-    goto :goto_0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x7f1000ed
-        :pswitch_0
-    .end packed-switch
-.end method
-
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 4
 

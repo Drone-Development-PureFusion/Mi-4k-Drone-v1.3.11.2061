@@ -85,10 +85,6 @@
 
 .field public static final g:Ljava/lang/String; = "https://fimiservice-us.mi-ae.com"
 
-.field public static final h:Ljava/lang/String; = "https://fimiservice-us.mi-ae.com/statement.html"
-
-.field public static final i:Ljava/lang/String; = "https://fimiservice-us.mi-ae.com/privacy.html"
-
 .field public static final j:Ljava/lang/String; = "https://fimiservice-us.mi-ae.com/android/fimi.service"
 
 .field public static final k:Ljava/lang/String; = ""
