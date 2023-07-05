@@ -2626,7 +2626,7 @@
     move-result-object v0
 
     :goto_2
-    const/16 v1, 0x1f4
+    const/16 v1, 0x3b6
 
     new-instance v2, Lcom/fimi/soul/view/f$b;
 
