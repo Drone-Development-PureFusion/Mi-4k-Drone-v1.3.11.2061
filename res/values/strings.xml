@@ -821,9 +821,6 @@ Please fly in less interfered environment"</string>
     <string name="more_distance_cue">"Before your operation, please read below contents.
 
 The flight distance of the aircraft should be in accordance with national, state and local regulations. If the flight distance of the aircraft exceeds the maximum distance permitted, you are responsible for the consequences of the flight. Xiaomi and Fimi shall not be responsible for any accidents after this operation."</string>
-    <string name="more_height_cue">"Before your operation, please read below contents.
-
-The flight altitude of the aircraft should be in accordance with national, state and local regulations. For example, certain small commercial drones will be permitted to fly up to 400 Ft (around 121.9m) under a policy announced by the Federal Aviation Administration (FAA). If the altitude of the aircraft exceeds the specified height, you are responsible for the consequences of the flight. Xiaomi and Fimi shall not be responsible for any accidents after this operation."</string>
     <string name="motor_start_up">For safety reason, cannot update during the flight</string>
     <string name="my_location">My Position</string>
     <string name="need_to_unlock_the_newhand_mode">Available after Beginner Mode turned off</string>
