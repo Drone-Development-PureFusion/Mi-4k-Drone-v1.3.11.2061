@@ -818,9 +818,6 @@ Please fly in less interfered environment"</string>
     <string name="modle_des">It is convenient to switch between Camera view / Map view</string>
     <string name="modle_title">Camera View / Map View</string>
     <string name="month">Month</string>
-    <string name="more_distance_cue">"Before your operation, please read below contents.
-
-The flight distance of the aircraft should be in accordance with national, state and local regulations. If the flight distance of the aircraft exceeds the maximum distance permitted, you are responsible for the consequences of the flight. Xiaomi and Fimi shall not be responsible for any accidents after this operation."</string>
     <string name="motor_start_up">For safety reason, cannot update during the flight</string>
     <string name="my_location">My Position</string>
     <string name="need_to_unlock_the_newhand_mode">Available after Beginner Mode turned off</string>

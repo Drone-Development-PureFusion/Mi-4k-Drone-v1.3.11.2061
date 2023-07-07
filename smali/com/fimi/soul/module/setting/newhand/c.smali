@@ -1407,106 +1407,12 @@
     :cond_1
     const/16 v0, 0x2710
 
-    if-ne p1, v0, :cond_2
-
     invoke-virtual {p0, v1}, Lcom/fimi/soul/module/setting/newhand/c;->a(I)V
 
     invoke-interface {p2, v1}, Lcom/fimi/soul/module/setting/newhand/e;->a(I)V
 
     goto :goto_0
 
-    :cond_2
-    const-string v0, "2"
-
-    invoke-direct {p0, v0}, Lcom/fimi/soul/module/setting/newhand/c;->a(Ljava/lang/String;)Lcom/fimi/soul/entity/FlyModeLog;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/fimi/soul/view/f$a;
-
-    iget-object v2, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    invoke-direct {v1, v2}, Lcom/fimi/soul/view/f$a;-><init>(Landroid/content/Context;)V
-
-    iget-object v2, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    const v3, 0x7f0b041a
-
-    invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/fimi/soul/view/f$a;->a(Ljava/lang/String;)Lcom/fimi/soul/view/f$a;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    const v3, 0x7f0b031f
-
-    invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/fimi/soul/view/f$a;->b(Ljava/lang/String;)Lcom/fimi/soul/view/f$a;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v2
-
-    const v3, 0x7f0f0076
-
-    invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
-
-    move-result v2
-
-    invoke-virtual {v1, v2}, Lcom/fimi/soul/view/f$a;->a(I)Lcom/fimi/soul/view/f$a;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    const v3, 0x7f0b0418
-
-    invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    new-instance v3, Lcom/fimi/soul/module/setting/newhand/c$7;
-
-    invoke-direct {v3, p0, p2, v0}, Lcom/fimi/soul/module/setting/newhand/c$7;-><init>(Lcom/fimi/soul/module/setting/newhand/c;Lcom/fimi/soul/module/setting/newhand/e;Lcom/fimi/soul/entity/FlyModeLog;)V
-
-    invoke-virtual {v1, v2, v3}, Lcom/fimi/soul/view/f$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/fimi/soul/view/f$a;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/fimi/soul/module/setting/newhand/c;->F:Landroid/content/Context;
-
-    const v2, 0x7f0b011d
-
-    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/fimi/soul/module/setting/newhand/c$6;
-
-    invoke-direct {v2, p0}, Lcom/fimi/soul/module/setting/newhand/c$6;-><init>(Lcom/fimi/soul/module/setting/newhand/c;)V
-
-    invoke-virtual {v0, v1, v2}, Lcom/fimi/soul/view/f$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/fimi/soul/view/f$a;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/fimi/soul/view/f$a;->a()Lcom/fimi/soul/view/f;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/fimi/soul/view/f;->show()V
-
-    goto/16 :goto_0
 .end method
 
 .method public a(Lcom/fimi/kernel/view/button/SwitchButton;Lcom/fimi/soul/entity/Setting;)V

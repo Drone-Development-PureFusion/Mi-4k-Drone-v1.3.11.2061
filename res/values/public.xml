@@ -3075,7 +3075,6 @@
     <public type="string" name="modle_des" id="0x7f0b031c" />
     <public type="string" name="modle_title" id="0x7f0b031d" />
     <public type="string" name="month" id="0x7f0b031e" />
-    <public type="string" name="more_distance_cue" id="0x7f0b031f" />
     <public type="string" name="motor_start_up" id="0x7f0b0321" />
     <public type="string" name="my_location" id="0x7f0b0322" />
     <public type="string" name="need_to_unlock_the_newhand_mode" id="0x7f0b0323" />

@@ -1572,8 +1572,6 @@
 
 .field public static final month:I = 0x7f0b031e
 
-.field public static final more_distance_cue:I = 0x7f0b031f
-
 .field public static final motor_start_up:I = 0x7f0b0321
 
 .field public static final mr_button_content_description:I = 0x7f0b004c
